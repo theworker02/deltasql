@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/deltasql",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Delta structured JSON sql payloads without a heavyweight toolkit.",
+  "bin": {
+    "deltasql": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/deltasql.git"
+  },
+  "homepage": "https://theworker02.github.io/deltasql/",
+  "keywords": [
+    "delta",
+    "sql",
+    "json",
+    "cli",
+    "toolkit"
+  ]
+}
